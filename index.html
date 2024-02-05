@@ -35,7 +35,7 @@
         <ul class="opcoes">
             <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
             <label for="opcoes-menu">
-            <li class="opcoes__item">Categorias</li>
+                <li class="opcoes__item">Categorias</li>
             </label>
             <ul class="lista-menu">
                 <li class="lista-menu__item"><a href="#" class="lista-menu__link">Programação</a></li>
@@ -45,13 +45,21 @@
                 <li class="lista-menu__item"><a href="#" class="lista-menu__link">Design & UX</a></li>
             </ul>
             <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
-            <li class="opcoes__item"><a href="#" class="opcoes__link">Minha estante</a></li> 
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Minha estante</a></li>
         </ul>
 
         <div class="container">
-            <a href="#"><img class="container__imagem container__imagem-transparente" src="imagens/Favoritos.svg" alt="meus favoritos"></a>
-            <a href="#"><img class="container__imagem" src="imagens/Compras.svg" alt="compras"></a>
-            <a href="#"><img class="container__imagem" src="imagens/Usuario.svg" alt="meu usuario"></a>
+            <a href="#">
+                <img class="container__imagem container__imagem-transparente" src="imagens/Favoritos.svg"
+                    alt="meus favoritos">
+            </a>
+            <a href="#">
+                <img class="container__imagem" src="imagens/Compras.svg" alt="compras">
+                <p class="container__texto">Minha sacola</p>
+            </a>
+            <a href="#">
+                <img class="container__imagem" src="imagens/Usuario.svg" alt="meu usuario"></a>
+                <p class="container__texto">Minha sacola</p>
         </div>
     </header>
     <section class="banner">
@@ -64,17 +72,17 @@
 
         <!-- Slider main container -->
         <div class="swiper">
-                <!-- If we need pagination -->
-          <div class="swiper-pagination"></div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide"><img src="imagens/ApacheKafka.svg"
-                alt="Livro sobre apache kafka e spring boot da alura books"></div>
+                        alt="Livro sobre apache kafka e spring boot da alura books"></div>
                 <div class="swiper-slide"><img src="imagens/Lideranca.svg"
-                alt="Livro sobre liderança em desing da alura books"></div>
+                        alt="Livro sobre liderança em desing da alura books"></div>
                 <div class="swiper-slide"><img src="imagens/Javascript.svg"
-                alt="Livro sobre javascript assertivo da alura books"></div>
+                        alt="Livro sobre javascript assertivo da alura books"></div>
                 <div class="swiper-slide"><img src="imagens/Guia Front-end.svg" alt="Livro guia front-end"></div>
                 <div class="swiper-slide"><img src="imagens/Portugol.svg" alt="Livro sobre portugol"></div>
                 <div class="swiper-slide"><img src="imagens/Acessibilidade.svg" alt="Livro sobre acessibilidade"></div>
@@ -119,7 +127,8 @@
                     <img src="imagens/Estrelinhas.svg" alt="Nota da autora">
                     <h3 class="descricao__titulo">Autora do mês</h3>
                     <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
-                    <p class="descricao__texto">Analista de sistemas e escritora, juliana é especialista em Front-End</p>
+                    <p class="descricao__texto">Analista de sistemas e escritora, juliana é especialista em Front-End
+                    </p>
                 </div>
                 <img src="imagens/Escritora.svg" alt="Imagem do perfil da escritora">
             </div>
@@ -164,7 +173,7 @@
                 <a href="#" class="topicos__link">Java</a>
             </li>
         </ul>
-    </section> 
+    </section>
 
     <section class="contato">
         <div class="contato__descricao">
@@ -178,17 +187,90 @@
 
     <footer class="rodape">
         <h2 class="rodape__titulo">Grupo alura</h2>
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Educação</li>
+            <li class="lista-rodape__item">
+                <img src="imagens/CasaDoCodigo.svg" alt="Logo casa do código">
+                <a href="#" class="lista-rodape__link">Casa do código</a>
+            </li>
+            <li class="lista-rodape__titulo">Educação</li>
+            <li class="lista-rodape__item">
+                <img src="imagens/Caelum.svg" alt="Logo caelum">
+                <a href="#" class="lista-rodape__link">Caelum</a>
+            </li>
+        </ul>
+
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Educação online</li>
+            <br>
+            <img src="imagens/Alura.svg" alt="Logo da alura">
+            <a href="#" class="lista-rodape__link">Alura</a>
+           </li>
+            <li class="lista-rodape__item">
+                <img src="imagens/AluraEmpresas.svg" alt="Logo alura para empresas">
+                <a href="#" class="lista-rodape__link">Alura para empresas</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="imagens/AluraLATAM.svg" alt="Logo alura latam">
+                <a href="#" class="lista-rodape__link">Alura latam</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="imagens/AluraStart.svg" alt="Logo alura start">
+                <a href="#" class="lista-rodape__link">Alura start</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="imagens/MusicDot.svg" alt="Logo MusicDot">
+                <a href="#" class="lista-rodape__link">MusicDot</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="imagens/AluraLingua.svg" alt="Logo aluraLingua">
+                <a href="#" class="lista-rodape__link">AluraLingua</a>
+            </li>
+        </ul>
+
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Comunidade</li>
+            <li class="lista-rodape__item">
+                <img src="imagens/HipstersTech.svg" alt="Logo hipstersTech">
+                <a href="#" class="lista-rodape__link">Hipsters ponto Tech</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="imagens/ScubaDev.svg" alt="Logo scubaDev">
+                <a href="#" class="lista-rodape__link">Scuba Dev</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="imagens/LayersTech.svg" alt="Logo layerstech">
+                <a href="#" class="lista-rodape__link">Layers ponto tech</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="imagens/LikeABoss.svg" alt="Logo likeaboss">
+                <a href="#" class="lista-rodape__link">Like a Boss</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="imagens/CarreiraSemFronteira.svg" alt="Logo CarreiraSemFronteira">
+                <a href="#" class="lista-rodape__link">Carreira Sem Fronteira</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="imagens/HipstersJobs.svg" alt="Logo HipstersJobs">
+                <a href="#" class="lista-rodape__link">Hipsters ponto jobs</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="imagens/GUJ.svg" alt="Logo GUJ">
+                <a href="#" class="lista-rodape__link">GJJ</a>
+            </li>
+        </ul>
+
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
-         spaceBetween: 10,
-         slidesPerView: 3,
-         pagination: {
-            el: '.swiper-pagination',
-            type: 'bullets',
-         }
-    });
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            }
+        });
     </script>
 </body>
 
